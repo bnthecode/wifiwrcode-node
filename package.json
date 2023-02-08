@@ -1,0 +1,20 @@
+{
+  "name": "wifi-qrcode-backend",
+  "version": "1.0.0",
+  "description": "wifi qrcode generator",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "brandon counts",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.20",
+    "wifi-qr-code-generator": "^1.1.1"
+  }
+}
